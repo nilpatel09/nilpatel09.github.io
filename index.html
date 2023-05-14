@@ -2,34 +2,75 @@
 <html>
 <head>
 	<meta charset="UTF-8">
-	<title>Nil's Homepage</title>
-	<!-- Link to CSS stylesheet -->
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>My Personal Website</title>
+	<link rel="stylesheet" href="style.css">
 </head>
 <body>
-	<!-- Navigation bar -->
-	<nav>
-		<ul>
-			<li><a href="#">Home</a></li>
-			<li><a href="#">About</a></li>
-			<li><a href="#">Services</a></li>
-			<li><a href="#">Portfolio</a></li>
-			<li><a href="#">Contact</a></li>
-			<li><a href="#">LinkedIn</a></li>
-		</ul>
-	</nav>
+	<header>
+		<nav>
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">About</a></li>
+				<li><a href="#">Portfolio</a></li>
+				<li><a href="#">Contact</a></li>
+			</ul>
+		</nav>
+	</header>
 
-	<!-- Main content section -->
-	<section>
-		<h1>Welcome to Nil's Homepage</h1>
-		<p>Hi, I'm Nil and this is my homepage. I'm a web developer and I love creating dynamic websites that engage and delight users.</p>
-		<!-- Contact button -->
-		<button id="contact">Contact me</button>
-		<!-- LinkedIn profile button -->
-		<button id="linkedin">Visit my LinkedIn profile</button>
-	</section>
+	<main>
+		<section class="hero">
+			<h1>Welcome to My Personal Website</h1>
+			<p>Hi, I'm John Doe and I'm a web developer. Here, you can learn more about me and my work.</p>
+			<a href="#" class="button">Learn More</a>
+		</section>
 
-	<!-- Link to JavaScript file -->
+		<section class="about">
+			<h2>About Me</h2>
+			<p>I'm a passionate web developer who loves creating beautiful and functional websites. I have experience in HTML, CSS, JavaScript, and various web frameworks and libraries.</p>
+			<p>When I'm not coding, you can usually find me playing video games or reading science fiction novels.</p>
+		</section>
+
+		<section class="portfolio">
+			<h2>My Portfolio</h2>
+			<div class="project">
+				<img src="project1.jpg" alt="Project 1">
+				<h3>Project 1</h3>
+				<p>A description of Project 1 goes here.</p>
+				<a href="#" class="button">Learn More</a>
+			</div>
+			<div class="project">
+				<img src="project2.jpg" alt="Project 2">
+				<h3>Project 2</h3>
+				<p>A description of Project 2 goes here.</p>
+				<a href="#" class="button">Learn More</a>
+			</div>
+			<div class="project">
+				<img src="project3.jpg" alt="Project 3">
+				<h3>Project 3</h3>
+				<p>A description of Project 3 goes here.</p>
+				<a href="#" class="button">Learn More</a>
+			</div>
+		</section>
+	</main>
+
+	<footer>
+		<p>&copy; 2023 John Doe</p>
+	</footer>
+
+	<div id="chatbot">
+		<div id="chatbot-header">
+			<h3>Chatbot</h3>
+			<button id="chatbot-toggle">+</button>
+		</div>
+		<div id="chatbot-body">
+			<div id="chatbot-messages"></div>
+			<form id="chatbot-form">
+				<input type="text" id="chatbot-input" placeholder="Type your message...">
+				<button type="submit">Send</button>
+			</form>
+		</div>
+	</div>
+
 	<script src="script.js"></script>
 </body>
 </html>
