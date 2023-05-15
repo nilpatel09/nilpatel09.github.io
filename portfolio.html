@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="pfstyle.css">
+</head>
+<body>
+  <!-- Navigation Bar -->
+  <nav>
+    <h1>Portfolio</h1>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li class="active"><a href="portfolio.html">Portfolio</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Chatbot Container -->
+  <div id="chat-container" class="chat-container hidden">
+    <div id="chat-log" class="chat-log"></div>
+    <div class="chat-input-container">
+      <input type="text" id="chat-input" class="chat-input" placeholder="Type your message...">
+      <button id="chat-send" class="chat-send">Send</button>
+    </div>
+  </div>
+  <button id="chat-button" class="chat-button">Chat</button>
+
+  <!-- Project Section -->
+  <main>
+    <div class="project">
+      <img src="project1.jpg" alt="Project 1">
+      <h2>Project 1</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel risus non augue iaculis consequat.</p>
+      <a href="#">View Project</a>
+    </div>
+    <div class="project">
+      <img src="project2.jpg" alt="Project 2">
+      <h2>Project 2</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel risus non augue iaculis consequat.</p>
+      <a href="#">View Project</a>
+    </div>
+    <div class="project">
+      <img src="project3.jpg" alt="Project 3">
+      <h2>Project 3</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel risus non augue iaculis consequat.</p>
+      <a href="#">View Project</a>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2023 Portfolio. All rights reserved.</p>
+  </footer>
+
+  <script src="pfscript.js"></script>
+  <script src="chatbot.js"></script>
+</body>
+</html>
