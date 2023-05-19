@@ -64,7 +64,7 @@ function toggleMenu() {
   
   // Sliding images in background
   const images = [
-    "background-image-1.jpg",
+    "b1.jpg",
     "background-image-2.jpg",
     "background-image-3.jpg",
     "background-image-4.jpg",
